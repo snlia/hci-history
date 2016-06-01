@@ -1,0 +1,318 @@
+﻿<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Histroy</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background: #000;
+        }
+
+        .naver {
+            overflow: hidden;
+        }
+
+        .naver li {
+            width: 12%;
+            height: 200px;
+            overflow: hidden;
+            font-size: 170%;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+            text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+            -webkit-text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+            -moz-text-shadow: #000 1px 0 0, #000 0 1px 0, #000 -1px 0 0, #000 0 -1px 0;
+            *filter: Glow(color=#000, strength=1);
+            font-family: "Microsoft YaHei";
+            color: #FFF;
+        }
+
+        .naver li a {
+            position: absolute;
+            bottom: 0;
+            left: 35%;
+        }
+
+        .naver li b {
+            position: absolute;
+            top: 0;
+            left: 35%;
+        }
+
+        .co1 {
+            background: #6B2820;
+            position: absolute;
+            left: 5%;
+            bottom: 0%;
+        }
+
+        .co2 {
+            background: #A66454;
+            position: absolute;
+            left: 18%;
+            bottom: 0%;
+        }
+
+        .co3 {
+            background: #E78A3D;
+            position: absolute;
+            left: 31%;
+            bottom: 0%;
+        }
+
+        .co4 {
+            background: #E1F586;
+            position: absolute;
+            left: 44%;
+            bottom: 0%;
+        }
+
+        .co5 {
+            background: #EEE5BE;
+            position: absolute;
+            left: 57%;
+            bottom: 0%;
+        }
+
+        .co6 {
+            background: #6D8381;
+            position: absolute;
+            left: 70%;
+            bottom: 0%;
+        }
+
+        .co7 {
+            background: #4B4126;
+            position: absolute;
+            left: 83%;
+            bottom: 0%;
+        }
+
+        .co8 {
+            background: #4B4126;
+            position: absolute;
+            left: 11.5%;
+            top: 0%;
+        }
+
+        .co9 {
+            background: #6D8381;
+            position: absolute;
+            left: 24.5%;
+            top: 0%;
+        }
+
+        .co10 {
+            background: #EEE5BE;
+            position: absolute;
+            left: 37.5%;
+            top: 0%;
+        }
+
+        .co11 {
+            background: #E1F586;
+            position: absolute;
+            left: 50.5%;
+            top: 0%;
+        }
+
+        .co12 {
+            background: #E78A3D;
+            position: absolute;
+            left: 63.5%;
+            top: 0%;
+        }
+
+        .co13 {
+            background: #A66454;
+            position: absolute;
+            left: 76.5%;
+            top: 0%;
+        }
+
+        .co14 {
+            background: #6B2820;
+            position: absolute;
+            left: 100%;
+            top: 0%;
+        }
+
+        #divleft {
+            width: 200px;
+            height: 40%;
+            position: absolute;
+            left: -200px;
+            top: 30%;
+            color: #FFF;
+            font-size: 125%;
+            text-decoration: none;
+			background:url(pic/leftp.jpg);
+        }
+
+        span {
+            width: 50px;
+            height: 50%;
+            position: absolute;
+            right: -50px;
+            top: 25%;
+        }
+
+        div {
+            font-size: 180%;
+            font-family: "Microsoft YaHei";
+            color: #FFF;
+            text-decoration: none;
+        }
+
+        .textdiv0 {
+            position: absolute;
+            left: 13%;
+            top: 40%;
+        }
+
+        .textdiv1 {
+            position: absolute;
+            left: 20%;
+            top: 50%;
+            color: #FFF;
+            text-decoration: none;
+			width: 16%;
+			height:6%;
+			overflow:hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+        }
+
+        .textdiv2 {
+            position: absolute;
+            color: #FFF;
+            text-decoration: none;
+            left: 40%;
+            top: 50%;
+			width: 16%;
+			height:6%;
+			overflow:hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+        }
+
+        .textdiv3 {
+            position: absolute;
+            left: 60%;
+            top: 50%;
+            color: #FFF;
+            text-decoration: none;
+			width: 16%;
+			height:6%;
+			overflow:hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+        }
+
+        .textdiv4 {
+            position: absolute;
+            left: 80%;
+            top: 50%;
+            color: #FFF;
+            text-decoration: none;
+			width: 16%;
+			height:6%;
+			overflow:hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+        }
+
+    </style>
+    <script src="../Level2/js/data.js"></script>
+    <script src="../Level2/js/second-filter.js"></script>
+    <script src="../Level2/js/jquery.js"></script>
+    <script src="../Level2/bootstrap/js/bootstrap2.min.js"></script>
+    <script src="js/domain.js"></script>
+    <script src="js/first-filter.js"></script>
+    <script src="js/index.js" charset="UTF-8">
+    </script>
+
+</head>
+<body>
+<ul id="nav" class="naver">
+    <li class="co1">
+        <b></b>
+    </li>
+    <li class="co2">
+        <b></b>
+    </li>
+    <li class="co3">
+        <b></b>
+    </li>
+    <li class="co4">
+        <b></b>
+    </li>
+    <li class="co5">
+        <b></b>
+    </li>
+    <li class="co6">
+        <b></b>
+    </li>
+    <li class="co7">
+        <b></b>
+    </li>
+    <li class="co8">
+        <a></a>
+    </li>
+    <li class="co9">
+        <a></a>
+    </li>
+    <li class="co10">
+        <a></a>
+    </li>
+    <li class="co11">
+        <a></a>
+    </li>
+    <li class="co12">
+        <a></a>
+    </li>
+    <li class="co13">
+        <a></a>
+    </li>
+    <li class="co14">
+        <a></a>
+    </li>
+</ul>
+<div id="text0" class="textdiv0">  </div>
+<div><a id="text1" class="textdiv1" href="http://www.baidu.com">  </a></div>
+<div><a id="text2" class="textdiv2" href="http://www.baidu.com">  </a></div>
+<div><a id="text3" class="textdiv3" href="http://www.baidu.com">  </a></div>
+<div><a id="text4" class="textdiv4" href="http://www.baidu.com">  </a></div>
+<div id="formbackground" style="position:absolute; width:100%; height:100%; z-index:-2">
+    <img src="pic/background.jpg" height="100%" width="100%"/>
+</div>
+<div id="divleft">
+    <span><img src="pic/left.png" height="100%" width="100%"/></span>
+    <br>
+    <p align="center">关键字搜索</p>
+    <br>
+    <p align="center"><input id="keyword" type="text" name="keyword"/></p>
+    <br>
+    <p align="center">
+        <button id="search" type="button" name="seach" style="width:60px; height:7%">搜索</button>
+    </p>
+    <br>
+    <p align="center">时间筛选</p>
+    <p align="center"> 开始 <input type="text" id="s_y" style="width:40px"/>/<input type="text" id="s_m"
+                                                                                  style="width:20px"/>/<input
+            type="text" id="s_d" style="width:20px"/></p>
+    <p align="center"> 结束 <input type="text" id="e_y" style="width:40px"/>/<input type="text" id="e_m"
+                                                                                  style="width:20px"/>/<input
+            type="text" id="e_d" style="width:20px"/></p>
+    <br>
+    <p align="center">
+        <button id="filter" type="button" name="filter" style="width:60px; height:7%">筛选</button>
+    </p>
+</div>
+</body>
+</html>

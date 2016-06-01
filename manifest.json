@@ -1,0 +1,38 @@
+{
+  "background": {
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_icon": "img/icon19.png",
+    "default_title": "我的足迹"
+  },
+  "description": "对历史记录进行分类与管理,通过多层聚类为历史记录的查询提供了便捷的方式。",
+  "icons": {
+    "128": "img/icon128.png",
+    "16": "img/icon16.png",
+    "19": "img/icon19.png",
+    "32": "img/icon32.png",
+    "48": "img/icon48.png"
+  },
+  "manifest_version": 2,
+  "minimum_chrome_version": "29",
+  "name": "历史分类管理",
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+    "chrome://favicon/",
+    "history",
+    "tabs",
+    "contextMenus",
+    "storage",
+    "unlimitedStorage",
+    "identity",
+    "sessions",
+    "downloads",
+    "idle",
+    "webNavigation",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "version": "1.0"
+}
